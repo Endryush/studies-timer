@@ -46,7 +46,7 @@ class Form extends React.Component<{
             onChange={evento => this.setState({ ...this.state, tempo: evento.target.value})}
             id="time"
             min="00:00:00"
-            max="23:30:00"
+            max="01:30:00"
             required
           />
         </div>
